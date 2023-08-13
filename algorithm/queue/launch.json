@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Run Java Application",
+        "request": "launch",
+        "mainClass": "your.package.name.MainClass",
+        "cwd": "${fileDirname}"   // Thêm dòng này
+      }
+    ]
+  }
+  
